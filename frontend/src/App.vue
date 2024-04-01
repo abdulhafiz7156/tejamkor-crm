@@ -1,12 +1,7 @@
-<script setup>
-// import SingIn from "./components/Singin.vue";
-</script>
+<script setup></script>
 
 <template>
-  <router-view />
+    <router-view />
 </template>
 
-<style >
-@import "../node_modules/primeflex/primeflex.css";
-
-</style>
+<style scoped></style>

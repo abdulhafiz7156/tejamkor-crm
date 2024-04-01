@@ -8,10 +8,18 @@ datasource db {
 }
 
 model User {
-  id       Int      @id @default(autoincrement())
-  username          String  @unique
+  id                Int      @id @default(autoincrement())
+  username          String      @unique
   password          String
   role_id           Int
 }
 
+
+model Employees {
+  id                Int      @id @default(autoincrement())
+  name              String      @unique
+  dailyWage         Int
+  EarnedMoney       Int
+  PayedOrNot        Int
+}
 
